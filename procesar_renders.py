@@ -4,8 +4,8 @@ import shutil
 from PIL import Image
 
 # Directorios
-downloads_path = os.path.join(os.path.expanduser("~"), "Downloads")
-output_folder = os.path.join(downloads_path, "Renders para pagina web")
+downloads_path = os.path.join(os.path.expanduser("~"), "Downloads") #Esta es la carpeta Default, cambia el nombre a tu carpeta donde quieras que haga la búsqueda
+output_folder = os.path.join(downloads_path, "Nombre_de_carpeta_de_salida")
 
 # Crear carpeta de salida si no existe
 if not os.path.exists(output_folder):
